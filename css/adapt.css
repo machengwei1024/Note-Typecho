@@ -1,0 +1,201 @@
+@media screen and (max-width:1000px) {
+	/* 主页面 */
+	.index-header{
+		height: 420px;
+	}
+	.index-post-abstract{
+		width: 90%;
+	}	
+	/* 文章页 */
+	.post-main{
+		width: 90%;
+		margin: 0 auto;
+	}
+	.pagination{
+	width: 90%;
+	}
+}
+@media screen and (max-width:1000px) {
+	/* 友情链接页面 */
+	.links-page{
+		text-align: center;
+	}
+	.links-page-section .links-btn,
+	.links-page-section .links2-btn{
+		display: inline-block;
+		margin: 14.8px;
+		text-align: center;
+		float: none;
+	}
+	.links-page-section .links-btn>img{
+		width: 100%;
+		height: auto;
+	}
+	.post-readmore{
+		display: none;
+	}
+	.post-readmore-min{
+		display: block;
+	}
+	.comments-info-box>input{
+		width: 322px;
+		display: block;
+		margin-bottom: 10px;
+	}
+	.comments-text>textarea{
+		width: 500px;
+	}
+}
+@media screen and (max-width:768px) {
+	/* 主页面 */
+	.index-header{
+		height: 320px;
+	}
+	.index-post-abstract{
+		width: 90%;
+	}
+	/* 文章页 */
+	.post-donate{
+		display: none;
+	}
+	.post-body-layout{
+		background: none;
+	}
+	.post-readmore{
+		display: block;
+	    width: 100%;
+	    border-top: 1px solid #eee;
+	}
+	.post-readmore .post-readmore-left,
+	.post-readmore .post-readmore-right{
+		display: block;
+		padding: 15px 0 0 0;
+		width: 100%;
+		vertical-align: top;
+		/*overflow: hidden;*/
+		white-space: nowrap;
+	}
+	.post-readmore .post-readmore-right{
+		text-align: left;
+	}
+	.post-readmore-icon{
+		display: none;
+	}
+	.post-readmore-text{
+		display: inline;
+	}
+	.comments-info-box>input{
+		width: 322px;
+		display: block;
+		margin-bottom: 10px;
+	}
+	.comments-text>textarea{
+		width: 500px;
+	}
+	/* 友情链接页面 */
+	.links-page-section .links-btn,
+	.links-page-section .links2-btn{
+		width: 90%;
+	}
+}
+@media screen and (max-width:571px) {
+	.comments-info-box>input{
+		width: 322px;
+		display: block;
+		margin-bottom: 10px;
+	}
+	.comments-text>textarea{
+		width: 322px;
+	}
+}
+@media screen and (max-width:416px) {
+	.index-header-wave{
+		display: none;
+	}
+}
+@media screen and (max-width:380px) {
+	/* 导航栏 */
+	.navbar-layout .navbar-header{
+		padding: 10px 0;
+	}
+	.navbar-layout .navbar-date{
+		padding: 10px 0;
+	}
+	.navbar-links>ul>li>a{
+		font-size: 16px;
+		padding: 12px 0;
+	}
+	/* 主页面 */
+	.index-header{
+		height: 240px;
+	}
+	.index-header-wave{
+		display: none;
+	}
+	.index-post-abstract{
+		width: 90%;
+	}
+	.index-post-layout{
+		padding: 30px 0;
+	}	
+	.index-post-abstract>header{
+		text-align: center;
+		margin-bottom: 35px;
+	}
+	.index-post-abstract>header>h2{
+		margin-bottom: 15px;
+	}
+	.index-post-abstract>header>h2>a,
+	.index-post-abstract>header>h2>a:link{
+		font-size: 25px;
+	}
+	.index-post-abstract>header>time{
+		font-size: 8pt;
+	}
+	.index-post-abstract>section{
+		font-size: 11pt;
+	}
+	.index-post-abstract>section h1{
+		font-size: 23pt;
+		font-weight: 200;
+	}
+	.index-post-abstract>section h2{
+		font-size: 20pt;
+		font-weight: 200;
+	}
+	.index-post-abstract>section h3{
+		font-size: 18pt;
+		font-weight: 200;
+	}
+	.index-post-abstract>section h4{
+		font-size: 16pt;
+		font-weight: 200;
+	}
+	.index-post-abstract>section h5{
+		font-size: 14pt;
+		font-weight: 200;
+	}
+	.index-post-abstract>section h6{
+		font-size: 13pt;
+		font-weight: 200;
+	}
+	/* 文章页 */
+	.post-main {
+	    width: 90%;
+	    margin: 0 auto;
+	}
+	.post-header{
+		padding: 60px 0;
+	}
+	.post-header>h2{
+		font-size: 30px;
+	}
+	.comments-info-box>input{
+		width: 322px;
+		display: block;
+		margin-bottom: 10px;
+	}
+	.comments-text>textarea{
+		width: 322px;
+	}
+}
