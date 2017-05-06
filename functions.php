@@ -22,5 +22,8 @@ function themeConfig($form) {
 	$form->addInput($socialrss);
 	$socialemail = new Typecho_Widget_Helper_Form_Element_Text('socialemail', NULL, NULL, _t('电子邮箱'), _t('在这里输入电子邮箱,带mailto:例如 mailto:i@weic96.cn'));
 	$form->addInput($socialemail);
+    //备案号
+    $socialicp = new Typecho_Widget_Helper_Form_Element_Text('socialicp', NULL, NULL, _t('备案号'), _t('在这里输入备案号'));
+    $form->addInput($socialicp);
 }
 
