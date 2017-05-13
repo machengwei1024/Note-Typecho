@@ -33,5 +33,6 @@
         <?php endif; ?>
 <?php $this->need('navigator.php'); ?>	
     </div>
+    <?php $this->need('page-footer.php'); ?>
 </div>
 <?php $this->need('footer.php'); ?>

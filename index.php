@@ -4,7 +4,7 @@
  * 
  * @package Note 
  * @author Weic
- * @version 0.2
+ * @version 0.2.2
  * @link http://weic96.cn
  */
 
@@ -33,5 +33,6 @@ $this->need('header.php');?>
     <?php endwhile; ?>
 <?php $this->need('navigator.php'); ?>	
     </div>
+    <?php $this->need('page-footer.php'); ?>
 </div>
 <?php $this->need('footer.php'); ?>

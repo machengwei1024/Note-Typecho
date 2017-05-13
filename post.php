@@ -38,6 +38,7 @@
         </div>
     </div>
 </div>
+<?php $this->need('page-footer.php'); ?>
 </div>
 <div class="post-donate">
 <!-- 箭头模式 -->
@@ -75,5 +76,6 @@
     </div>
 </div>
 </div>
+
 <?php $this->need('footer.php'); ?>
 
