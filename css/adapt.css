@@ -51,6 +51,9 @@
 	.index-header{
 		height: 320px;
 	}
+	.index-header-wave{
+		display: none;
+	}
 	.index-post-abstract{
 		width: 90%;
 	}
@@ -171,9 +174,6 @@
 	/* 主页面 */
 	.index-header{
 		height: 240px;
-	}
-	.index-header-wave{
-		display: none;
 	}
 	.index-post-abstract{
 		width: 90%;

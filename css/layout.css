@@ -245,6 +245,7 @@ ul,ol {
 	overflow-x: hidden;
 	background: url(../images/body-bg.png);
 	z-index: 98;
+	overflow-y: auto;
 	-webkit-transition: -webkit-transform .6s ease;
 	transition: transform .4s ease;
 	-webkit-transform: translate3D(0,0,0);
@@ -408,11 +409,12 @@ ul,ol {
 	width: 100%;
 	height: 620px;
 	background: #fafafa;
+	background-size: 100% 100%;
 	position: relative;
 }
 .index-header-wave{
 	position: absolute;
-	bottom: 0;
+	bottom: -1px;
 	height: 56px;
 	width: 100%;
 	background: url(../images/index-header-wave.png);
