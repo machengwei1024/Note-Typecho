@@ -1,4 +1,3 @@
-[English](https://github.com/Weic96/Jian/blob/master/README-EN)
 
 Note正如其名字一样，是一款适合写作、做笔记的博客主题，设计风格来自我的上一款主题 [《Jian》](https://weic96.cn/themes-jian) ，也可以理解为《Jian》的升级版、整容版；
 
