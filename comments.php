@@ -111,4 +111,4 @@ echo $commentClass;
             this.placeholder = "请至少输入3字符的内容！"
         }
       })
-</script>
+</script>  

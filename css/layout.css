@@ -19,6 +19,17 @@ body {
 tt,code,kbd,samp {
 	font-family: "Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif
 }
+a,
+a:focus,
+a:hover
+input,
+input:focus,
+button,
+button:focus{
+    outline: none;
+    -webkit-box-shadow: 0 0 0 2px rgba(0,0,0,0);
+    box-shadow: 0 0 0 2px rgba(0,0,0,0);
+}
 .clear-float{
 	clear: both;
 }

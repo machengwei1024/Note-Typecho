@@ -17,9 +17,14 @@
 	<link rel="stylesheet" type="text/css" href="<?php $this->options->themeUrl('css/atom-one-light.css'); ?>">
 	<link rel="stylesheet" type="text/css" href="<?php $this->options->themeUrl('css/font-awesome.min.css'); ?>">
 	<link rel="stylesheet" type="text/css" href="<?php $this->options->themeUrl('css/waves.min.css'); ?>">
-	<link rel="stylesheet" type="text/css" href="<?php $this->options->themeUrl('css/zoom.css'); ?>">
+	<link rel="stylesheet" type="text/css" href="<?php $this->options->themeUrl('css/jquery.fancybox.css'); ?>">
 	<link rel="stylesheet" type="text/css" href="<?php $this->options->themeUrl('css/layout.css'); ?>">
 	<link rel="stylesheet" type="text/css" href="<?php $this->options->themeUrl('css/adapt.css'); ?>">
+	<style type="text/css">
+		#instantclick{
+			display: none;
+		}
+	</style>
 	<script src="<?php $this->options->themeUrl('js/jquery-2.2.4.min.js'); ?>"></script>
     <?php $this->header(); ?>
 </head>

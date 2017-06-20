@@ -74,8 +74,12 @@ function otherFunction(){
     $(".post-donate-btn").css("left",donate_btnW);
     $(".post-donate-box").css("left",donateW);
 
-    // 文章页灯箱
-    $(".post-main-section img").attr("data-action","zoom");
+    // 图像查看器插件
+    $(".post-main-section img").each(function(){
+        var imgSrc = $(this).attr('src');
+        $(this).wrap("<a class='img-a img-group' data-fancybox='group' href='javascript:;'></a>");
+        $(this).parent().attr('href',imgSrc);
+    })
 
     // 其他
     $(".post-main-section a").attr("target", "_blank");

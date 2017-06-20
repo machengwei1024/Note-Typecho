@@ -4,8 +4,8 @@
  * 
  * @package Note 
  * @author Weic
- * @version 0.2.3
- * @link http://weic96.cn
+ * @version 0.3
+ * @link http://weic.me
  */
 
 if (!defined('__TYPECHO_ROOT_DIR__')) exit;
