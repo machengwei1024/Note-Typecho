@@ -1,5 +1,14 @@
 [English](https://github.com/Weic96/Jian/blob/master/README-EN)
 
+#### 注意
+
+如果需要使用Typecho原生评论功能请关闭Typecho的反垃圾保护，具体步骤为
+
+Typecho后台->设置->评论->开启发垃圾评论（去掉选中）
+
+
+<br>
+
 Note正如其名字一样，是一款适合写作、做笔记的博客主题，设计风格来自我的上一款主题 [《Jian》](https://weic96.cn/themes-jian) ，也可以理解为《Jian》的升级版、整容版；
 
 > 注意：此款主题目前任然出去开发阶段，所以会不断地增加新功能和优化，如果你在使用此款主题请密切关注此篇文章或Github
