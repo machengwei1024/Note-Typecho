@@ -16,7 +16,7 @@
         </div>
         <div class="clear-float"></div>
     </div>
-    
+
     <div class="navbar-links">
         <ul class="clearfix" id="nav_menu">
         <li><a href="<?php $this->options->siteUrl(); ?>">首页</a></li>
@@ -25,22 +25,8 @@
         </ul>
     </div>
     <div class="navbar-search">
-        <form class="input-group"  id="search" method="post" action="./" role="search">
+        <form class="input-group" id="search" method="post" action="./" role="search">
             <input type="text" name="s" class="form-control" placeholder="搜索">
         </form>
-    </div>
-    <div class="navbar-icon">
-        <?php if ($this->options->socialgithub): ?>   
-            <a class="fa fa-github navbar-github" href="<?php $this->options->socialgithub(); ?>" target="_blank"></a>
-        <?php endif; ?>
-        <?php if ($this->options->socialweibo): ?>
-            <a class="fa fa-weibo navbar-weibo" href="<?php $this->options->socialweibo(); ?>" target="_blank"></a>
-        <?php endif; ?>
-        <?php if ($this->options->socialemail): ?>
-            <a class="fa fa-envelope navbar-mail" href="<?php $this->options->socialemail(); ?>" target="_blank"></a>
-        <?php endif; ?>
-        <?php if ($this->options->socialrss): ?>    
-            <a class="fa fa-rss navbar-rss" href="<?php $this->options->socialrss(); ?>" target="_blank"></a>
-        <?php endif; ?>
     </div>
 </div>

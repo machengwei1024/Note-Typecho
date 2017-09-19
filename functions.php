@@ -13,17 +13,7 @@ function themeConfig($form) {
     $form->addInput($alipayUrl);
     $qqUrl = new Typecho_Widget_Helper_Form_Element_Text('qqUrl', NULL, NULL, _t('QQ图片地址'), _t('在这里填入你QQ二维码图片的URL地址, 以在网站文章页的赞助模块里显示你的QQ二维码'));
     $form->addInput($qqUrl);
-    //社交链接
-	$socialweibo = new Typecho_Widget_Helper_Form_Element_Text('socialweibo', NULL, NULL, _t('微博'), _t('在这里输入微博链接,带http://'));
-	$form->addInput($socialweibo);
-	$socialgithub = new Typecho_Widget_Helper_Form_Element_Text('socialgithub', NULL, NULL, _t('GitHub'), _t('在这里输入GitHub链接,带http://'));
-	$form->addInput($socialgithub);
-	$socialrss = new Typecho_Widget_Helper_Form_Element_Text('socialrss', NULL, NULL, _t('RSS'), _t('在这里输入RSS链接,带http://'));
-	$form->addInput($socialrss);
-	$socialemail = new Typecho_Widget_Helper_Form_Element_Text('socialemail', NULL, NULL, _t('电子邮箱'), _t('在这里输入电子邮箱,带mailto:例如 mailto:i@weic96.cn'));
-	$form->addInput($socialemail);
     //备案号
     $socialicp = new Typecho_Widget_Helper_Form_Element_Text('socialicp', NULL, NULL, _t('备案号'), _t('在这里输入备案号'));
     $form->addInput($socialicp);
 }
-

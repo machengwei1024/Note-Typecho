@@ -2,9 +2,7 @@
 <?php $this->need('header.php'); ?>
 
 <div class="body-layout">
-    <div class="index-header" style="background:url(<?php $this->options->themeUrl('images/index-header-default-bg.jpg'); ?>);background-size:100% 100%;background-repeat:no-repeat;">
-       <div class="index-header-wave"></div>
-    </div>
+    <div class="index-header" style="background:url(<?php $this->options->themeUrl('images/index-header-default-bg.jpg'); ?>);background-size:100% 100%;background-repeat:no-repeat;"></div>
     <div class="index-container">
 
 
@@ -31,7 +29,7 @@
 			</article>
 		</div>
         <?php endif; ?>
-<?php $this->need('navigator.php'); ?>	
+<?php $this->need('navigator.php'); ?>
     </div>
     <?php $this->need('page-footer.php'); ?>
 </div>

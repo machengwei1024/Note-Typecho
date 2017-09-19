@@ -1,10 +1,10 @@
 <?php
 /**
  * 一款大气时尚适合写作的博客主题
- * 
- * @package Note 
+ *
+ * @package Note
  * @author Weic
- * @version 0.3
+ * @version 1.0
  * @link http://weic.me
  */
 
@@ -12,9 +12,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 $this->need('header.php');?>
 <div class="body-layout">
 <?php if ($this->options->indexBGUrl): ?>
-    <div class="index-header" style="">
-       <div class="index-header-wave"></div>
-    </div>
+    <div class="index-header" style=""></div>
     	<style type="text/css">
 			.index-header{
 				background:url(<?php $this->options->indexBGUrl() ?>);
@@ -45,7 +43,7 @@ $this->need('header.php');?>
 			</article>
 		</div>
     <?php endwhile; ?>
-<?php $this->need('navigator.php'); ?>	
+<?php $this->need('navigator.php'); ?>
     </div>
     <?php $this->need('page-footer.php'); ?>
 </div>

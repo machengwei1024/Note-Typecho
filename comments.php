@@ -50,7 +50,8 @@ echo $commentClass;
 <?php } ?>
 
 <div id="comments" class="post-comments">
-    <span class="post-comments-btn">评论</span>
+      <br>
+      <br>
     <?php $this->comments()->to($comments); ?>
     <?php if ($comments->have()): ?>
     <p class="comments-number"><?php $this->commentsNum(_t('暂无评论'), _t('仅有一条评论'), _t('已有 %d 条评论')); ?></p>
@@ -80,7 +81,7 @@ echo $commentClass;
                 </div>
             <?php endif; ?>
             <div class="comments-text">
-                <textarea class="form-control" rows="6" name="text" id="textarea" placeholder="不要手下留情，尽情吐槽吧！"></textarea>
+                <textarea class="form-control" rows="6" name="text" id="textarea" placeholder="评论前请先F5刷新本页面"></textarea>
             </div>
             <div class="comments-submit">
                 <button id="from_submit" type="submit"><?php _e('发射'); ?></button>
@@ -111,4 +112,4 @@ echo $commentClass;
             this.placeholder = "请至少输入3字符的内容！"
         }
       })
-</script>  
+</script>

@@ -2,8 +2,8 @@
 
 <?php $this->footer(); ?>
 </div>
+	<!-- <script src="<?php $this->options->themeUrl('js/jquery.pjax.js'); ?>" data-no-instant></script> -->
 	<script src="<?php $this->options->themeUrl('js/jquery.pjax.js'); ?>" data-no-instant></script>
-	<script src="<?php $this->options->themeUrl('js/instantclick.min.js'); ?>" data-no-instant></script>
 	<script src="<?php $this->options->themeUrl('js/highlight.pack.js'); ?>" data-no-instant></script>
 	<script src="<?php $this->options->themeUrl('js/highlightjs-line-numbers.js'); ?>" data-no-instant></script>
 	<script src="<?php $this->options->themeUrl('js/waves.min.js'); ?>" data-no-instant></script>
@@ -23,18 +23,24 @@
 	        $(".page-loading-two").css("background-color","#b3f788");
             $('.page-loading').fadeOut();
 	</script>
-    <script data-no-instant>        
-        InstantClick.on('change', function() {
-            Waves.displayEffect();
-            $('pre code').each(function(i, block){
-                hljs.highlightBlock(block);
-            });
-            otherFunction();
-            $('code.hljs').each(function(i, block){
-                hljs.lineNumbersBlock(block);
-            });
-        });
-        InstantClick.init();
-    </script> 
+    <script data-no-instant>
+		hljs.initHighlightingOnLoad();
+		hljs.initLineNumbersOnLoad();
+		Waves.displayEffect();
+		otherFunction();
+		$(document).pjax('a', '#pjax-container', {fragment:'#pjax-container', timeout:8000}).on('pjax:send', function() {
+			$('.page-loading').fadeIn();
+		}).on('pjax:complete', function() {
+			$('pre code').each(function(i, block){
+				hljs.highlightBlock(block);
+			});
+			$('code.hljs').each(function(i, block){
+				hljs.lineNumbersBlock(block);
+			});
+		}).on('pjax:end', function() {
+			$('.page-loading').fadeOut();
+			otherFunction();
+		});
+    </script>
 </body>
 </html>
