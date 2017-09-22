@@ -2,5 +2,5 @@
 <footer class="page-footer">
 	<p>Copyright @ <?php echo(date("Y")) ?> <a href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title(); ?></a></p>
 	<p><?php if ($this->options->socialicp): ?><a target="_blank" href="http://www.miitbeian.gov.cn/"><?php $this->options->socialicp(); ?></a> | <?php endif; ?>
-    Powered by <a href="http://typecho.org" target="_blank">Typecho</a>,Themes <a target="_blank" href="https://weic96.cn/themes-note/">Note</a>.</p>
+    Powered by <a href="http://typecho.org" target="_blank">Typecho</a>,Theme <a target="_blank" href="https://weic.me/themes-note/">Note</a>.</p>
 </footer>
