@@ -2,7 +2,6 @@
 
 <?php $this->footer(); ?>
 </div>
-	<!-- <script src="<?php $this->options->themeUrl('js/jquery.pjax.js'); ?>" data-no-instant></script> -->
 	<script src="<?php $this->options->themeUrl('js/jquery.pjax.js'); ?>" data-no-instant></script>
 	<script src="<?php $this->options->themeUrl('js/highlight.pack.js'); ?>" data-no-instant></script>
 	<script src="<?php $this->options->themeUrl('js/highlightjs-line-numbers.js'); ?>" data-no-instant></script>
