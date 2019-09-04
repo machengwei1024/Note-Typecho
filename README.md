@@ -38,4 +38,4 @@ Note正如其名字一样，是一款适合写作、做笔记的博客主题，�
 
 #### 更多信息
 
-本页面不写任何更新日志，只在[作者博客](https://note.isweic.com/themes-note/)发布信息
+本页面不写任何更新日志，只在[作者博客](https://sweic.com/themes-note/)发布信息
