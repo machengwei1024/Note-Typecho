@@ -1,6 +1,6 @@
-[English](https://github.com/Weic96/Jian/blob/master/README-EN)
+[English](https://github.com/WeicMa/Jian/blob/master/README-EN)
 
-Note正如其名字一样，是一款适合写作、做笔记的博客主题，设计风格来自我的上一款主题 [《Jian》](https://note.isweic.com/themes-jian) ，也可以理解为《Jian》的升级版、整容版；
+Note正如其名字一样，是一款适合写作、做笔记的博客主题，设计风格来自我的上一款主题 [《Jian》](https://isweic.com/themes-jian) ，也可以理解为《Jian》的升级版、整容版；
 
 > 注意：此款主题目前 仍然处于开发阶段，所以会不断地增加新功能和优化，如果你在使用此款主题请密切关注此篇文章或Github
 
@@ -38,4 +38,4 @@ Note正如其名字一样，是一款适合写作、做笔记的博客主题，�
 
 #### 更多信息
 
-本页面不写任何更新日志，只在[作者博客](https://sweic.com/themes-note/)发布信息
+本页面不写任何更新日志，只在[作者博客](https://isweic.com/themes-note/)发布信息
